@@ -1,0 +1,39 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+.circle{
+
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right: 20px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+#red-circle{
+
+    background: red;
+
+}
+
+#blue-circle{
+
+    background: blue;
+
+}
+
+#yellow-circle{
+
+    background: yellow;
+
+}

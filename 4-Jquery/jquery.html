@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>jQuery</title>
+
+        <link rel = "stylesheet"  type = "text/css" href = "jquery.css">
+
+        <script type = "text/javascript" src = "C:\Users\Munish Aggarwal\Desktop\web development course\4-Jquery\jquery.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <div id="circle"></div>
+    
+        <p>this is some text</p>
+            
+        <button id = "btn">click me</button>
+
+        <script type = "text/javascript">
+        
+        $("#btn").click(function() {
+
+            alert("button is clicked");
+
+        });
+
+        $("#circle").click(function(){
+
+            alert("cirlce has been clicked");
+
+        });
+
+        $("#circle").click(function(){
+
+            alert($("p").html());
+
+            $(this).fadeOut("slow", function(){
+
+                alert("fade out is finished")
+            });
+    
+        });
+
+        $("#btn").click(function() {
+
+            $("p").fadeOut();
+
+        });
+
+        </script>
+
+    </body>
+
+</html>

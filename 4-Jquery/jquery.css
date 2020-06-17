@@ -1,0 +1,44 @@
+#circle{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: green;
+    cursor: pointer;
+
+}
+
+p{
+
+    font-size: 20px;
+    font-family: monospace;
+    word-spacing: 1px;
+    text-align: center;
+
+}
+
+p:hover{
+
+    font-size: 25px;
+    font-weight: 40px;
+    letter-spacing: 3px;
+    text-transform: uppercase;    
+
+}
+
+button{
+
+    background-color: lavenderblush;
+    font-size: 20px;
+    font-family: monospace;
+
+}
+
+button:hover{
+
+    cursor: pointer;
+    border-radius: 15%;
+    font-size: 25px;
+    letter-spacing: 5px;
+
+}

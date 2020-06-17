@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        
+        <title>javascript</title>
+
+
+    </head>
+    
+    <body>
+
+    <p id = "text">hello World!</p>
+
+    <button id = "my-button">Change text</button>
+
+    <p id = "text-2">my name is ketan Aggarwal</p>
+
+    <p id = "more-text">this is some text</p>
+
+    <button id = "styletext">style text</button>
+
+    <div id = "tweetDiv"></div>
+
+        <script type = "text/javascript">
+
+        //this is a one line comment
+
+        /* this is a 
+        
+        multi-line comment */
+
+            document.getElementById("text").innerHTML = "hello Ketan Aggarwal!";
+
+            alert("ketan aggarwal welcomes you to his webpage");
+
+            document.getElementById("my-button").onclick = function() {
+
+                alert("button clicked!");
+
+                document.getElementById("text-2").innerHTML = "I am 18 years old and trying learn javascript";
+            
+            }
+
+            document.getElementById("styletext").onclick = function() {
+
+                document.getElementById("more-text").style.color = "red";
+
+                document.getElementById("more-text").style.fontSize = "50px";
+
+            }
+
+            var tweetString = "";
+
+            var tweets = ["hi everyone", "i love cornflakes", "night night :)", "sweet dreams", "good night"]
+
+            for (var i = 0; i < tweets.length; i++) {
+
+                alert(tweets[i]);
+
+                tweetString = tweetString + "<p>" + tweets[i] + "</p>";
+
+            }
+
+            document.getElementById("tweetDiv").innerHTML = tweetString;
+            
+    </script>
+
+    </body>
+
+</html>

@@ -1,0 +1,175 @@
+#topbar{
+
+    width: 1000px;
+    margin: 0 auto;
+    height: 40px;
+
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#logo{
+
+    width: 100px;
+    float: left;
+    margin-top: 8px;
+    margin-right: 10px; 
+
+}
+
+.topbar-section{
+
+    border-left: 1px #cccccc solid;
+    height: 100%;
+    float: left;
+    margin-left: 5px;
+    margin-right: 15px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#sign-in:hover{
+
+    border-bottom: -1.5px #abdbff;
+    cursor: pointer;
+
+}
+
+.font-1{
+
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    top: 10px;
+    position: relative;
+
+}
+
+.search-bar{
+
+    position: relative;
+    top: 10px;
+    left: 15px;
+    border: 2px solid black;
+    background-color: whitesmoke;
+
+}
+
+#red{
+
+    width: 100%;
+    background-color: #bb1919;
+    height: 60px;
+    margin-top: -17px; 
+
+}
+
+#font-2{
+
+    color: white;
+    font-size: 40px;
+    position: relative;
+    left: -800px;
+    top: 5px;
+    text-transform: uppercase;
+
+}
+
+#font-3{
+
+    color: white;
+    font-size: 15px;
+    word-spacing: 5px;
+    position: relative;
+    left: -100px;
+    border: 1px solid #d6a4c5;
+    padding: 5px 15px;
+
+}
+
+#font-3:hover{
+
+    text-decoration: white underline;
+    cursor: pointer;
+}
+
+#red-2{
+
+    background-color: #a91717;
+    width: 100%;
+    height: 30px;
+    color: white;
+
+}
+
+.bottombar-section{
+
+    float: left;
+    margin-left: 80px;
+    padding-right: 10px;
+    margin-top: 5px;
+    border-right: 1px #cccccc solid;
+
+}
+
+.bottombar-section-2 {
+
+    color: white;
+    float: left;
+    margin-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    border-right: 1px #cccccc solid;
+
+}
+
+#More{
+
+    color: white;
+    float: left;
+    margin-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+
+}
+
+.tech{
+
+    font-size: 20px;
+    font-weight: 50px;
+    position: relative;
+    top:  10px;
+    padding-bottom: 2px;
+    margin-left: 80px;
+    border-bottom: 3px solid #a91717;
+
+}
+
+.font-4{
+
+    margin-left: 80px;
+    position: relative;
+    top: 5px;
+}
+
+p {
+
+    margin-left: 80px;
+    color:  #63676b;
+
+}
+
+#time{
+
+    color: #63676b;
+    font-size: 12px;
+    margin-top:  -5px;
+    margin-left: 100px;
+
+}

@@ -1,0 +1,59 @@
+body {
+  background-color: #DCF5FF;
+  margin: 0;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inner {
+  background: #07daa5;
+  padding: 1em;
+  border-radius: 10px;
+  width: 250px;
+  -webkit-clip-path: circle(10% at 90% 20%);
+          clip-path: circle(10% at 90% 20%);
+  -webkit-transition: ease-in-out, -webkit-clip-path .5s;
+  transition: ease-in-out, -webkit-clip-path .5s;
+  transition: clip-path .5s, ease-in-out;
+  transition: clip-path .5s, ease-in-out, -webkit-clip-path .5s;
+  cursor: pointer;
+}
+
+.inner:hover {
+  -webkit-clip-path: circle(75%);
+          clip-path: circle(75%);
+  background: #00b6ff;
+}
+
+.inner span {
+  float: right;
+  color: white;
+  font-weight: bold;
+  -webkit-transition: color .5s;
+  transition: color .5s;
+  position: relative;
+  margin-right: 4%;
+}
+
+.inner:hover span {
+  color: rgba(255, 255, 255, 0);
+}
+
+.inner h1 {
+  color: white;
+  margin: 0;
+}
+
+.inner P {
+  color: white;
+  font-size: 0.8rem;
+}
+/*# sourceMappingURL=expriment.css.map */
