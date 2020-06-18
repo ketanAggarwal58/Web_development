@@ -1,0 +1,72 @@
+body{
+
+    background: url(library/istockphoto-1150477705-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;  
+    color: white;
+    display: table;  
+
+}
+
+.navbar {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    background: black;
+
+}
+
+.home{
+
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+    width: 150px;
+    text-align: center;
+    background: black;
+    line-height: 80px;
+    cursor: pointer;
+
+}
+
+.menu{
+
+    float: right;
+    margin: 0 6em;
+    line-height: 50px;
+
+    ul{
+
+        list-style: none;
+
+        li{
+
+            display: inline-block;
+
+            a{
+                
+                text-decoration: none;
+                font-size: 22px; 
+                font-weight: bold;
+                font-style: italic;
+                letter-spacing: 2px;
+                margin-left: 10px;
+                position: relative;
+                top: -80px;
+                padding: 0 20px;
+                color: white;
+                background: black;
+
+            }
+
+        }
+
+    }
+}
