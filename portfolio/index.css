@@ -15,19 +15,28 @@ body {
   padding: 0;
   width: 100%;
   height: 80px;
-  background: black;
 }
 
 .home {
   font-size: 22px;
   font-weight: bold;
   font-style: italic;
-  letter-spacing: 2px;
   width: 150px;
   text-align: center;
-  background: black;
   line-height: 80px;
   cursor: pointer;
+}
+
+.home a {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.home a:hover {
+  letter-spacing: 2px;
+  text-decoration: underline;
 }
 
 .menu {
@@ -49,12 +58,71 @@ body {
   font-size: 22px;
   font-weight: bold;
   font-style: italic;
-  letter-spacing: 2px;
   margin-left: 10px;
   position: relative;
   top: -80px;
   padding: 0 20px;
   color: white;
-  background: black;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.menu ul li a:hover {
+  letter-spacing: 2px;
+  text-decoration: underline;
+}
+
+.cards {
+  width: 700px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 200px 0px 0px 240px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cards .card-1 {
+  width: 300px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  background: white;
+  border-radius: 10px;
+  -webkit-box-shadow: -5px -5px 3px #00000070, 3px 3px 15px #ffffff70;
+          box-shadow: -5px -5px 3px #00000070, 3px 3px 15px #ffffff70;
+}
+
+.cards .card-2 {
+  width: 300px;
+  height: 300px;
+  background: white;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 0px 0px 100px;
+  border-radius: 10px;
+  -webkit-box-shadow: -5px -5px 3px #00000070, 3px 3px 15px #ffffff70;
+          box-shadow: -5px -5px 3px #00000070, 3px 3px 15px #ffffff70;
 }
 /*# sourceMappingURL=index.css.map */
