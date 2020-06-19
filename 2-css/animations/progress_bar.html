@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset = "UTF-8">
+
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    
+    <title>Progress bar</title>
+
+    <link rel = "stylesheet" href = "progress_bar.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class = "container">
+
+        <div class = "card">
+
+            <!-- <span>hello</span> -->
+
+            <div class = "bar">
+
+                <h2>Progress bar</h2>
+
+                <div class = "percent"></div>
+
+                <span>percentage</span> <input class = "number" value = "40" type = "number"> <button class = "click">enter</button> 
+                
+            </div>
+
+        </div>
+
+    </div>
+    
+    <script src = "library/jquery-3.5.1.js"></script>
+
+    <script>
+
+        $(".click").click(function(){
+
+           //alert("button clicked");
+
+            var a = $(".number").val();
+
+            //alert(a);
+
+            $(".percent").css('width', ''+a+"%");
+
+        });
+
+    </script>
+
+</body>
+
+</html>
