@@ -102,8 +102,15 @@ body {
   color: black;
   background: white;
   border-radius: 10px;
+  opacity: 0.8;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
   -webkit-box-shadow: -5px -5px 3px #00000070, 3px 3px 15px #ffffff70;
           box-shadow: -5px -5px 3px #00000070, 3px 3px 15px #ffffff70;
+}
+
+.cards .card-1:hover {
+  opacity: initial;
 }
 
 .cards .card-2 {
@@ -120,9 +127,28 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  opacity: 0.8;
   margin: 0px 0px 0px 100px;
   border-radius: 10px;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
   -webkit-box-shadow: -5px -5px 3px #00000070, 3px 3px 15px #ffffff70;
           box-shadow: -5px -5px 3px #00000070, 3px 3px 15px #ffffff70;
+}
+
+.cards .card-2 span {
+  opacity: 0;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.cards .card-2:hover {
+  opacity: initial;
+}
+
+.cards .card-2:hover span {
+  opacity: 1;
+  text-transform: capitalize;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=index.css.map */

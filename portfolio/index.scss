@@ -6,6 +6,7 @@ body{
     height: 100vh;  
     color: white;
     display: table;  
+    // font-family: ;
 
 }
 
@@ -43,6 +44,7 @@ body{
 
             letter-spacing: 2px;
             text-decoration: underline;
+            
         }
 
     }
@@ -111,7 +113,16 @@ body{
         color: black;
         background: white;
         border-radius: 10px;
+        opacity: 0.8;
+        transition: all 1s ease-in-out;
         box-shadow: -5px -5px 3px #00000070, 3px 3px 15px #ffffff70;
+
+        &:hover{
+
+            opacity: initial;
+
+        }
+
     }
 
     .card-2{
@@ -123,9 +134,32 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+        opacity: 0.8;
         margin: 0px 0px 0px 100px;
         border-radius: 10px;
+        transition: all 1s ease-in-out;
         box-shadow: -5px -5px 3px #00000070, 3px 3px 15px #ffffff70;
+
+        span{
+
+            opacity: 0;
+            transition: all 1s ease-in-out;
+
+        }
+
+        &:hover{
+
+            opacity: initial;
+
+            span{
+
+                opacity: 1;
+                text-transform: capitalize;
+                text-decoration: underline;
+            
+            }
+
+        }
 
     }
 
