@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+img {
+  margin: 20px;
+  position: relative;
+  top: 90px;
+  left: 60px;
+  height: 350px;
+  width: 450px;
+  border-radius: 30%;
+}
+
+.container {
+  position: relative;
+  left: 120px;
+  width: 450px;
+  height: 450px;
+  border-radius: 100px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#9b59b6), to(white));
+  background: linear-gradient(#9b59b6, white);
+  margin: 50px;
+}
+
+.container h2 {
+  color: white;
+  margin: 30px;
+  position: relative;
+  left: 150px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.container input {
+  position: relative;
+  left: 75px;
+  margin: 20px;
+  height: 30px;
+  width: 250px;
+  text-align: center;
+  border-radius: 30px;
+  border: none;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.container .loginb {
+  width: 150px;
+  display: block;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#1abc9c));
+  background: linear-gradient(white, #1abc9c);
+  position: relative;
+  left: 125px;
+}
+
+.container .hl {
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#f39c12));
+  background: linear-gradient(white, #f39c12);
+  position: relative;
+  left: 60px;
+  width: 125px;
+}
+
+.container .rl {
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#e74c3c));
+  background: linear-gradient(white, #e74c3c);
+  position: relative;
+  left: 60px;
+  width: 125px;
+  margin: 4px;
+}
+/*# sourceMappingURL=Login page.css.map */

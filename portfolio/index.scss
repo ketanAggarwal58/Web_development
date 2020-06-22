@@ -117,10 +117,42 @@ body{
         transition: all 1s ease-in-out;
         box-shadow: -5px -5px 3px #00000070, 3px 3px 15px #ffffff70;
 
+        h4{
+
+            margin: 10px;
+
+        }
+
         &:hover{
 
             opacity: initial;
+            box-shadow: 8px 8px 6px black;
+            transform: trasnlate(-15px, -15px);
 
+        }
+
+        .percent{
+
+            width: 120px;
+            background: grey;
+            height: 10px;
+            border-radius: 10px;
+            transition: all 1s ease-in-out;
+            // display: none;
+
+            &:hover{
+
+                #bar{
+
+                    width: 70%;
+                    height: 100%;
+                    background: black;
+                    border-radius: 10px;
+    
+                }
+                
+            }
+        
         }
 
     }
