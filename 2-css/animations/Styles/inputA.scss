@@ -1,0 +1,64 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-f{
+
+    position: relative;
+    width: 250px;
+    height: 44px;
+    line-height: 44px;
+
+}
+
+label{
+
+    position: absolute;
+    top: 0;
+    left: 65px;
+    width: 100px;
+    color: #191919;
+    text-transform: capitalizein;
+    transition: 0.5s all;
+
+}
+
+input{
+
+    padding: 0.5rem 0;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: 0;
+    text-align: center;
+    box-shadow: none;
+
+    &:invalid{
+
+        outline: none;
+
+    }
+
+    &:focus, &:valid{
+
+        border-color: #00dd22;
+
+    }
+
+    &:focus~label, &:valid~label{
+
+        font-size: 14px;
+        top: -24px;
+        left: 0px;
+        color: #00dd22;
+
+    }
+
+}
