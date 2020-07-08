@@ -1,0 +1,71 @@
+body{
+
+    background: url("unsplash3.jpg") no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.navbar{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid rgba($color: #000000, $alpha: 0.5);
+
+}
+
+.logo{
+
+    float: left;
+    margin: 10px;
+
+    span{
+        
+        color: #dfe6e9;
+        font-size: 30px;
+        cursor: pointer;
+        text-decoration: underline;
+        transition: 0.5s all ease-in-out;
+
+    }
+
+}
+
+.menu{
+
+    ul{
+
+        float: right;
+
+        li{
+
+            display: inline-block;
+            margin-right: 30px;
+
+            a{
+
+                i{
+
+                    color: #dfe6e9;
+                    margin-right: 10px;
+                    cursor: pointer;
+
+                }
+                
+                color: #dfe6e9;
+                text-decoration: none;
+                text-transform: capitalize;
+
+            }
+        }
+    }
+}
+
+.images{
+
+    position: relative;
+    top: 50px;
+
+}
