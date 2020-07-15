@@ -3,6 +3,7 @@ body {
   background-size: cover;
   margin: 0;
   padding: 0;
+  height: 100vh;
 }
 
 .navbar {
@@ -58,6 +59,19 @@ body {
 
 .menu ul li a:hover {
   text-decoration: underline;
+  color: white;
+}
+
+.text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
 }
 /*# sourceMappingURL=index.css.map */
